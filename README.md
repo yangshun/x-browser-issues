@@ -12,3 +12,11 @@ Support for `navigator.language(s)`:
 | `navigator.languages`       | Yes    	| Yes     	| No    	| No    	| No   	| No     	|
 | `navigator.userLanguage`    | No     	| No      	| Yes   	| Yes   	| Yes  	| No     	|
 | `navigator.browserLanguage` | No     	| No      	| Yes   	| Yes   	| Yes  	| No     	|
+
+Getting data attributes:
+
+|                   	| Chrome 	| Firefox 	| IE 11 	| IE 10 	| IE 9 	| Safari 	|
+|-------------------- |--------	|---------	|-------	|-------	|------	|--------	|
+| `el.dataset`       	| Yes    	| Yes     	| Yes   	| No    	| No   	| Yes    	|
+
+- Use `el.getAttribute('data-*')` instead.
